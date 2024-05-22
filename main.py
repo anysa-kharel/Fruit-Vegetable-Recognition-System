@@ -17,7 +17,7 @@ def model_prediction(test_image):
 #Home
 
 st.header("Fruits & Vegetable Recognition System")
-img_path="D:\documents\Projects\Fruits and vegetable recognition\home_img.jpg"
+img_path="home_img.jpg"
 st.image(img_path)
 
 test_image = st.file_uploader("Choose an image:")
